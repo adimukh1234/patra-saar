@@ -1,0 +1,135 @@
+PATRA SAAR – PRODUCT REQUIREMENTS DOCUMENT (PRD)
+
+Product Name: PatraSaar Tagline: Legal clarity, distilled.
+
+  ---------------------
+  1. PRODUCT OVERVIEW
+  ---------------------
+
+1.1 Problem Statement Indian legal documents are complex, verbose, and
+difficult for non-lawyers to understand. Citizens and small businesses
+struggle to interpret contracts, notices, FIRs, judgments, and policies
+without expensive legal assistance.
+
+There is no AI-first platform focused on Indian law that: - Simplifies
+legal documents into plain language - Grounds explanations in authentic
+legal sources - Helps users understand rights and obligations without
+replacing lawyers
+
+1.2 Solution PatraSaar is a SaaS platform powered by a robust
+Retrieval-Augmented Generation (RAG) pipeline trained on Indian legal
+documents. It enables users to:
+
+-   Declassify complex legal documents
+-   Ask legal questions grounded in Indian law
+-   Understand implications, risks, and next steps
+-   Access legal aid guidance (non-advisory)
+
+  -----------------
+  2. TARGET USERS
+  -----------------
+
+Primary Users: - Individuals handling legal documents - Small business
+owners and startups - Students and researchers - NGOs and legal aid
+clinics
+
+Secondary Users: - Junior lawyers and legal interns - Compliance teams
+in MSMEs - Journalists and RTI activists
+
+  -------------------
+  3. CORE USE CASES
+  -------------------
+
+-   Upload a legal document and receive a simplified explanation
+-   Clause-by-clause breakdown of contracts and notices
+-   Ask contextual questions with cited legal sources
+-   Classify documents by type, jurisdiction, and urgency
+-   Receive guidance on typical legal processes and authorities
+
+  -----------------
+  4. KEY FEATURES
+  -----------------
+
+4.1 Document Declassification - PDF, DOCX, TXT, scanned documents -
+Plain-language summaries - Clause-level explanations - Highlighted risks
+and obligations
+
+4.2 AI Legal Assistant (RAG-based) - Question answering grounded in
+retrieved legal context - Mandatory citations to Acts, Sections, and
+Judgments - Clear uncertainty handling
+
+4.3 Legal Document Classification - Contract, Notice, FIR, Judgment,
+Policy - Civil vs Criminal - Central vs State law relevance
+
+4.4 Legal Aid Guidance Layer - Explains applicable laws and
+authorities - Typical process flow and timelines - Indicates when to
+consult a lawyer (Note: Not legal advice)
+
+  --------------------------
+  5. RAG PIPELINE OVERVIEW
+  --------------------------
+
+Data Sources: - Constitution of India - Central and State Acts - Supreme
+Court and High Court judgments - Government notifications and circulars
+
+Pipeline Steps: 1. Document ingestion and OCR 2. Legal-aware chunking
+and metadata tagging 3. Embedding generation 4. Hybrid retrieval
+(semantic + keyword) 5. Re-ranking for accuracy 6. Grounded response
+generation with citations
+
+  -----------------------------
+  6. FRONTEND & UX PRINCIPLES
+  -----------------------------
+
+-   Dark, calm, authoritative visual design
+-   Serif headlines for legal gravitas
+-   Clean, minimal layouts
+-   Split-view document analysis interface
+-   Explainability and citation visibility
+
+  --------------------------------
+  7. NON-FUNCTIONAL REQUIREMENTS
+  --------------------------------
+
+Security & Privacy: - Encrypted document storage - No cross-user data
+leakage - India-compliant data hosting
+
+Performance: - Fast query responses (<3 seconds typical) - Asynchronous
+document processing
+
+Compliance: - Strong legal disclaimers - No claim of legal advice - Full
+audit logging
+
+  -----------------
+  8. MONETIZATION
+  -----------------
+
+Free Tier: - Limited uploads - Basic summaries
+
+Pro Tier: - Advanced document analysis - Full RAG-powered querying
+
+Enterprise: - Custom legal corpora - Institutional access
+
+  --------------------
+  9. SUCCESS METRICS
+  --------------------
+
+-   User comprehension feedback
+-   Citation accuracy
+-   Query resolution rate
+-   Retention and engagement
+
+  --------------------------
+  10. RISKS AND MITIGATION
+  --------------------------
+
+-   Hallucinations: Strict RAG grounding and thresholds
+-   Legal misuse: Clear disclaimers and guardrails
+-   Outdated laws: Continuous corpus updates
+
+  --------------------
+  11. PRODUCT VISION
+  --------------------
+
+PatraSaar is not a lawyer. It is a legal comprehension platform that
+empowers citizens to understand law before acting on it.
